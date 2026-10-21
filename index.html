@@ -1,86 +1,270 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Engineering Portfolio</title>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Jamie Ranes | Engineering Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+  <!-- NAVIGATION -->
   <header>
     <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
+      <a class="logo" href="#home">JR | Portfolio</a>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
     </nav>
   </header>
 
+
+  <!-- HOMEPAGE -->
   <main>
-    <section class="hero">
-      <h1>Jamie Ranes</h1>
-      <h2>Engineering Management Student</h2>
-      <p>Stevens Institute of Technology</p>
-      <p>Engineering Design | Data Analysis | Project Management</p>
-      <a class="button" href="#projects">View My Projects</a>
-    </section>
 
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I am an Engineering Management student at Stevens
-        Institute of Technology with interests in systems
-        engineering, data analysis, and project management.
-      </p>
-    </section>
+    <section id="home" class="hero">
+      <div class="hero-content">
 
-    <section id="projects">
-      <h2>Engineering Projects</h2>
+        <h1>Jamie Ranes</h1>
 
-      <div class="projects">
-        <article class="project">
-          <h3>Supply Chain Optimization</h3>
-          <p>
-            A mathematical optimization project using
-            Excel Solver to analyze distribution costs.
-          </p>
-        </article>
+        <h2>Engineering Management Student</h2>
 
-        <article class="project">
-          <h3>Engineering Design</h3>
-          <p>
-            CAD modeling and engineering design projects
-            using SolidWorks.
-          </p>
-        </article>
+        <p>
+          Stevens Institute of Technology
+        </p>
 
-        <article class="project">
-          <h3>Python Data Analysis</h3>
-          <p>
-            Statistical analysis and data visualization
-            using Python.
-          </p>
-        </article>
+        <p>
+          Engineering Design | Data Analysis |
+          Supply Chain | Project Management
+        </p>
+
+        <a class="button" href="#projects">
+          Explore My Projects
+        </a>
+
       </div>
     </section>
 
-    <section id="skills">
-      <h2>Technical Skills</h2>
-      <p>Python, Java, JavaScript, C++</p>
-      <p>SolidWorks, SketchUp, Excel</p>
-      <p>Project Management and Data Analysis</p>
+
+    <!-- ABOUT ME -->
+    <section id="about">
+
+      <h2 class="section-title">About Me</h2>
+
+      <p>
+        I am an Engineering Management student at
+        Stevens Institute of Technology, pursuing
+        a Bachelor of Engineering with a minor
+        in Public Policy.
+      </p>
+
+      <p>
+        My academic and professional interests include
+        engineering design, project management,
+        supply chain management, data analytics,
+        and science communication.
+      </p>
+
+      <p>
+        Through my coursework and professional
+        experience, I have developed technical,
+        analytical, and leadership skills that
+        I apply to engineering and business challenges.
+      </p>
+
     </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Add your professional email and LinkedIn here.</p>
+
+    <!-- PROJECT CATEGORIES -->
+    <section id="projects" class="projects-section">
+
+      <h2 class="section-title">My Projects</h2>
+
+      <p class="section-description">
+        Explore my work across engineering,
+        programming, supply chain management,
+        and business.
+      </p>
+
+      <div class="projects">
+
+        <!-- ENGINEERING -->
+        <article class="project">
+
+          <div class="project-icon">⚙️</div>
+
+          <h3>Engineering & Design</h3>
+
+          <p>
+            Engineering design, CAD modeling,
+            technical analysis, material science,
+            and systems engineering.
+          </p>
+
+          <a href="projects/engineering.html">
+            Explore Projects →
+          </a>
+
+        </article>
+
+
+        <!-- PROGRAMMING -->
+        <article class="project">
+
+          <div class="project-icon">💻</div>
+
+          <h3>Programming & Data Analysis</h3>
+
+          <p>
+            Python, Java, JavaScript, C++,
+            data visualization, statistical modeling,
+            and software development.
+          </p>
+
+          <a href="projects/programming.html">
+            Explore Projects →
+          </a>
+
+        </article>
+
+
+        <!-- SUPPLY CHAIN -->
+        <article class="project">
+
+          <div class="project-icon">📦</div>
+
+          <h3>Supply Chain & Optimization</h3>
+
+          <p>
+            Supply chain management, logistics,
+            operations research, mathematical
+            optimization, and distribution networks.
+          </p>
+
+          <a href="projects/supply-chain.html">
+            Explore Projects →
+          </a>
+
+        </article>
+
+
+        <!-- BUSINESS -->
+        <article class="project">
+
+          <div class="project-icon">📊</div>
+
+          <h3>Outreach & Business</h3>
+
+          <p>
+            Science communication, outreach
+            initiatives, business analysis,
+            strategic planning, and project management.
+          </p>
+
+          <a href="projects/business.html">
+            Explore Projects →
+          </a>
+
+        </article>
+
+      </div>
     </section>
+
+
+    <!-- TECHNICAL SKILLS -->
+    <section id="skills">
+
+      <h2 class="section-title">Technical Skills</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <h3>Programming</h3>
+          <p>
+            Python, Java, JavaScript, C++
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Engineering Design</h3>
+          <p>
+            SolidWorks, SketchUp, CAD Modeling
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Data & Analytics</h3>
+          <p>
+            Microsoft Excel, Python,
+            Statistical Analysis, Data Visualization
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Management</h3>
+          <p>
+            Project Management, Team Leadership,
+            Scheduling, Supply Chain Management
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+
+      <h2 class="section-title">Contact Me</h2>
+
+      <p>
+        Interested in connecting or learning
+        more about my work?
+      </p>
+
+      <div class="contact-links">
+
+        <!-- Replace # with your actual links -->
+        <a href="mailto:your-email@example.com">
+          Email Me
+        </a>
+
+        <a href="https://www.linkedin.com/"
+           target="_blank"
+           rel="noopener noreferrer">
+          LinkedIn
+        </a>
+
+        <a href="https://github.com/"
+           target="_blank"
+           rel="noopener noreferrer">
+          GitHub
+        </a>
+
+      </div>
+
+    </section>
+
   </main>
 
+
+  <!-- FOOTER -->
   <footer>
-    <p>Engineering Portfolio</p>
+
+    <p>
+      © 2026 Jamie Ranes | Engineering Portfolio
+    </p>
+
   </footer>
 
 </body>
